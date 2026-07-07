@@ -17,9 +17,8 @@ public class CorsConfig {
         CorsConfiguration configuration = new CorsConfiguration();
 
         configuration.setAllowedOriginPatterns(List.of(
-                "http://localhost:*",
-                "https://*.lovable.app",
-                "https://*.lovableproject.com"
+                "http://localhost:5173",
+                "https://sk-store-drab.vercel.app"
         ));
 
         configuration.setAllowedMethods(List.of("*"));
