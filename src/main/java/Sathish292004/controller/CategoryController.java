@@ -29,7 +29,7 @@ public class CategoryController {
 
     @PostMapping("/category")
     public ResponseEntity<Category> addCategory(@RequestBody Category category) {
-    return ResponseEntity.ok(categoryService.addCategory(category));
+        return ResponseEntity.ok(categoryService.addCategory(category));
     }
 
     @PutMapping("/category/{id}")
