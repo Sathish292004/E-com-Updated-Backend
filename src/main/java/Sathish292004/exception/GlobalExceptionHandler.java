@@ -12,9 +12,11 @@ import java.util.Map;
 @RestControllerAdvice
 public class GlobalExceptionHandler {
 
-    @ExceptionHandler(RuntimeException.class)
-    public ResponseEntity<ApiResponse<Object>> handleRuntimeException(
-            RuntimeException ex) {
+    @ExceptionHandler(Exception.class)
+    public ResponseEntity<ApiResponse<Object>> handleException(Exception ex) {
+
+        // Print the full stack trace in Azure Log Stream
+        ex.printStackTrace();
 
         return ResponseEntity.badRequest().body(
                 new ApiResponse<>(
