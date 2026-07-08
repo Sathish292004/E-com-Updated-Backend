@@ -67,7 +67,7 @@ public class OAuth2AuthenticationSuccessHandler extends SimpleUrlAuthenticationS
         String token = jwtService.generateToken(userDetails);
 
         response.sendRedirect(
-            "https://sk-store-drab.vercel.app/oauth2/success?token=" + token
+                "http://localhost:8081/oauth2/success?token=" + token
         );
     }
 }
