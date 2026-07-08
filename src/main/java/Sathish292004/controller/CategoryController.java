@@ -28,12 +28,9 @@ public class CategoryController {
     }
 
     @PostMapping("/category")
-    public ResponseEntity<?> addCategory(@RequestBody String body) {
-
-    System.out.println("BODY = " + body);
-
-    return ResponseEntity.ok(body);
-}
+    public ResponseEntity<Category> addCategory(@RequestBody Category category) {
+    return ResponseEntity.ok(categoryService.addCategory(category));
+    }
 
     @PutMapping("/category/{id}")
     public ResponseEntity<Category> updateCategory(
