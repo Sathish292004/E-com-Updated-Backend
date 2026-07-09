@@ -165,7 +165,9 @@ Authorization: Bearer <token>
 - [ ] 🖼️ Move product images out of the DB into object storage
 
 ## 👨‍💻 Author
+
 **Sathish Kumar B**
+
 🔗 GitHub: [github.com/Sathish292004](https://github.com/Sathish292004)
 
 ---
