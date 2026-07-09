@@ -2,7 +2,7 @@
 
 Full-featured REST API backend for the **SK Store** e-commerce platform, built with Spring Boot. This is the fleshed-out version of the backend — JWT + Google OAuth2 auth, an admin panel, and full product/cart/order/review flows are all wired up end-to-end.
 
-🔗 **Frontend:** [E-com-new](https://github.com/Sathish292004/E-comUpdatedVersion)  🌐[Live demo](https://sk-store-drab.vercel.app)
+🔗 **Frontend:** [E-com-new](https://github.com/Sathish292004/E-comUpdatedVersion) · 🌐[Live demo](https://sk-store-drab.vercel.app)
 
 ![Java](https://img.shields.io/badge/Java-21-007396?logo=openjdk&logoColor=white)
 ![Spring Boot](https://img.shields.io/badge/Spring%20Boot-4.1.0-6DB33F?logo=springboot&logoColor=white)
